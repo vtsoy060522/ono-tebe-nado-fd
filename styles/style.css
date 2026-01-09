@@ -53,3 +53,109 @@
     max-width: 410px;
     list-style-type: none;
 }
+
+.cover {
+    position: relative;
+    background-image: url(/images/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 757px;
+    color: #ffffff;
+}
+
+.cover__title {
+    letter-spacing: 30px;
+    font-size: 100px;
+    text-transform: uppercase;
+    gap: 20px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.aligned-text {
+    display: block;
+    font-size: 100px;
+}
+
+.letter-spacing-extended {
+    word-spacing: 20px;
+}
+
+.aligned-text_left {
+    position: relative;
+    top: 115px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 50px;
+    z-index: 2;
+
+}
+
+.aligned-text_center {
+    position: relative;
+    top: 32px;
+    left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    z-index: 2;
+
+}
+
+.aligned-text_right {
+    position: relative;
+    top: -50px;
+    left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 50px;
+    z-index: 2;
+
+}
+
+.cover__description {
+    font-size: 22px;
+    text-transform: uppercase;
+    position: relative;
+    top: 18px;
+    left: 48px;
+    z-index: 2;
+    display: flex;
+    gap: 20px;
+}
+
+.bet-button {
+    position: relative;
+    top: -15px;
+    left: 86px;
+    z-index: 2;
+    appearance: none;
+    background: none;
+    font-family: inherit;
+    color: inherit;
+    background-color: transparent;
+    text-transform: uppercase;
+    border: 1px solid #ffffff;
+    padding: 12px 31px;
+}
+
+.letter-spacing-extended {
+    word-spacing: 20px;
+}
+
+.no-letter-spacing {
+    word-spacing: 20px;
+}
