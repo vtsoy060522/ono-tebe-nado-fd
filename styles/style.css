@@ -159,6 +159,7 @@
 .no-letter-spacing {
     word-spacing: 20px;
 }
+
 .lots {
     display: flex;
     flex-direction: column;
@@ -217,9 +218,9 @@
     font-size: 22px;
     color: #ffffff;
     text-transform: uppercase;
-    text-decoration:underline;
+    text-decoration: underline;
     line-height: 120%;
-    z-index:2;
+    z-index: 2;
     padding: 50px 40px 282px 40px;
 }
 
@@ -227,9 +228,9 @@
     font-size: 22px;
     color: #ffffff;
     text-transform: uppercase;
-    text-decoration:underline;
+    text-decoration: underline;
     line-height: 120%;
-    z-index:2;
+    z-index: 2;
     padding: 47px 40px 39px 40px;
 }
 
@@ -237,10 +238,10 @@
     font-size: 22px;
     color: #ffffff;
     text-transform: uppercase;
-    text-decoration:underline;
+    text-decoration: underline;
     line-height: 120%;
-    z-index:2;
-   padding: 46px 40px 136px 40px;
+    z-index: 2;
+    padding: 46px 40px 136px 40px;
 }
 
 .lots__center {
@@ -261,8 +262,8 @@
     padding: 0px 40px 0px 40px;
     margin-top: -5px;
     line-height: 120%;
-    z-index:2;
-   
+    z-index: 2;
+
 }
 
 .card_type_picture {
@@ -285,21 +286,57 @@
 }
 
 .about {
+    display: grid;
+    grid-template-columns: 312px 1fr;
+    gap: 72px;
+    align-items: start;
+    padding-top: 148px;
 }
-.about__column {
+
+.about__column__left {
+    width: 334px;
+
+    display: flex;
+    justify-content: start;
+    margin-top: -102px;
+    margin-left: 74px;
 }
+
 .about__logo {
+    width: 240px;
+    height: 240px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 74px 51px 67px 44px;
 }
+
 .about__logo-image {
+    max-width: 100%;
+    height: auto;
 }
-.about__title
 
+.about__column__right {
+    width: 712px;
+    padding: 0 20px 20px 0;
 
-{
 }
+
+.about__title {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+}
+
 .about__text {
-}
-.about__description__1 {
-}
-.about__description__2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+    line-height: 24px;
+    word-spacing: 0.2px;
+    margin-top: 100px;
 }
