@@ -16,6 +16,10 @@
   list-style-type: none;
 }
 
+.header__link_active{
+    text-decoration: none;
+}
+
 .header__links-list-item {
   list-style-type: circle;
   text-decoration: underline;
@@ -366,13 +370,17 @@
 }
 
 .footer__menu-link_active {
-  text-decoration: none;
+text-decoration: none;
   margin-bottom: 10px;
 }
 
 .footer__menu-list-item {
   margin: 8px;
-  text-decoration: underline;
+}
+
+.footer__menu-link_active {
+text-decoration: none;
+  margin-bottom: 10px;
 }
 
 .footer__social-list {
